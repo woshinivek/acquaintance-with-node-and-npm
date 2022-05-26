@@ -5,6 +5,6 @@
 // console.log(passwordSchema.validate("GGhh45"));
 // console.log(passwordSchema.validate("g"));
 
-const shortid = require("shortid");
+// const shortid = require("shortid");
 
-console.log(shortid.generate());
+// console.log(shortid.generate());
