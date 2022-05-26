@@ -1,0 +1,24 @@
+{
+  "name": "acquaintance-with-node-and-npm",
+  "version": "1.0.0",
+  "description": "NPM Basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woshinivek/acquaintance-with-node-and-npm.git"
+  },
+  "author": "Konstantin Karavaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woshinivek/acquaintance-with-node-and-npm/issues"
+  },
+  "homepage": "https://github.com/woshinivek/acquaintance-with-node-and-npm#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "shortid": "^2.2.16"
+  }
+}
