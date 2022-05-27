@@ -1,32 +1,25 @@
 {
   "name": "acquaintance-with-node-and-npm",
   "version": "1.0.0",
-  "description": "NPM Basics",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "ji": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/woshinivek/acquaintance-with-node-and-npm.git"
   },
-  "author": "Konstantin Karavaev",
+  "author": "KKS",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/woshinivek/acquaintance-with-node-and-npm/issues"
   },
   "homepage": "https://github.com/woshinivek/acquaintance-with-node-and-npm#readme",
-  "dependencies": {
-    "joi": "^17.6.0",
-    "node-gyp": "^9.0.0",
-    "shortid": "^2.2.16"
-  },
   "devDependencies": {
-    "@babel/cli": "^7.17.10",
-    "@babel/core": "^7.18.2",
-    "@babel/preset-env": "^7.18.2",
     "lmdb": "^2.4.4",
-    "parcel": "^2.6.0"
+    "parcel-bundler": "^1.12.5"
   }
 }
